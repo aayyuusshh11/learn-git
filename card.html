@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: aqua;
+    }
+    .main {
+      height: 700px;
+      width: 450px;
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 255, 255);
+      border-radius: 30px;
+
+    }
+    .upper{
+      height: 250px;
+      width: 450px;
+      background-color: rgb(45, 106, 106);
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+    .lower{
+      height: 450px;
+      width: 450px;
+      background-color: aqua;
+
+    }
+    .circle{
+      border: 7px solid rgb(39, 106, 106);
+      height: 200px;
+      width: 200px;
+      border-radius: 50%;
+      margin: auto;
+      margin-top: 100px;
+      /* background-color: bisque; */
+      overflow: hidden;
+    }
+
+    .name{
+      /* border: 2px solid; */
+      height: 80px;
+      width: 350px;
+      margin-left: 50px;
+      margin-top: 75px;
+      text-align: center;
+      font-size: xx-large;
+      
+    }
+    .logo{
+      /* border: 2px solid; */
+      height: 80px;
+      width: 350px;
+      margin-left: 60px;
+      margin-top: 5px ;
+      display: flex;
+      flex-direction: row;
+    }
+    .msg{
+       /* border: 2px solid; */
+      height: 80px;
+      width: 350px;
+      margin-left: 50px;
+      margin-top: 5px ;
+      display: flex;
+      flex-direction: row;
+    }
+    .like{
+       /* border: 2px solid; */
+      height: 60px;
+      width: 350px;
+      margin-left: 50px;
+      margin-top: 5px ;
+      text-align: center; 
+      font-size: x-large;
+      padding-top: 10px;
+    }
+    .A{
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      /* border: 2px solid; */
+      margin: 10px;
+      overflow: hidden;
+    }
+
+    .sub, .msg1 {
+      height: 30px;
+      width: 108px;
+      /* border: 2px solid; */
+      margin-left:25px ;
+      margin-top: 10px;
+      border-radius: 60px;
+    }
+    .circle img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .A img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .sub, .msg1{
+      background-color: rgb(45, 106, 106);
+      text-align: center;
+      padding: 15px;
+    }
+
+
+    
+  
+  </style>
+
+</head>
+<body>
+  <br>
+  <div class="main">
+    
+    <div class="upper">
+        <div class="circle">
+          <img src="image.png">
+        </div>
+    </div>
+    
+
+      <div class="name"> 
+   <strong>Coding Lab</strong>  <br>
+  <span style="text-align: center; font-size: large;">Youtuber and Blogger</span> 
+</div>
+
+      <div class="logo">
+        <div class="A"> <img src="fb.png" ></div>
+        <div class="A"> <img src="twitter.png" ></div>
+        <div class="A"> <img src="insta.png" ></div>
+        <div class="A"> <img src="yt.png" ></div>
+      </div>
+      <div class="msg"> 
+        <div class="sub"> <span style="text-align: center; font-size: large "> <strong>Subscribe</strong> </span></div>
+        <div class="msg1"> <span style="text-align: center; font-size: large "> <strong>Message</strong></div>
+      </div>
+      <div class="like"> 🤍60.04k | ☁️20k | 📤12.4k</div>
+    </div>
+  
+</body>
+</html> 
